@@ -20,29 +20,42 @@
             <a href="index.html" class="logo">
                 <img src="img/logo.svg" alt="logo: Abito" class="logo-image">
             </a>
-            <nav class="navbar-menu">
-                <ul class="menu">
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Авто</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Недвижимость</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Работа</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Услуги</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="button-group">
-                <a href="#" class="button button-link">Вход и регистрация</a>
-                <a href="#" class="button button-primary">Подать объявление</a>
+            <div class="navbar-panel">
+                <button class="close-menu">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.7411 5.77678C27.4364 5.0815 27.4364 3.95422 26.7411 3.25893V3.25893C26.0458 2.56364 24.9185 2.56364 24.2232 3.25893L15.5 11.9821L6.77679 3.25893C6.0815 2.56364 4.95422 2.56364 4.25893 3.25893V3.25893C3.56364 3.95422 3.56364 5.0815 4.25893 5.77679L12.9821 14.5L4.25893 23.2232C3.56364 23.9185 3.56364 25.0458 4.25893 25.7411V25.7411C4.95422 26.4364 6.0815 26.4364 6.77678 25.7411L15.5 17.0179L24.2232 25.7411C24.9185 26.4364 26.0458 26.4364 26.7411 25.7411V25.7411C27.4364 25.0458 27.4364 23.9185 26.7411 23.2232L18.0179 14.5L26.7411 5.77678Z" fill="black"/>
+                        </svg>
+                </button>
+                <nav class="navbar-menu">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Авто</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Недвижимость</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Работа</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Услуги</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="button-group">
+                    <a href="#" class="button button-link">Вход и регистрация</a>
+                    <a href="#" class="button button-primary">Подать объявление</a>
+                </div>
+                <!-- /.button-group -->
             </div>
-            <!-- /.button-group -->
-
+            <button class="menu-button">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.937476 9.37501H29.0624C29.58 9.37501 29.9999 8.95498 29.9999 8.43754C29.9999 7.92002 29.5799 7.50006 29.0624 7.50006H0.937476C0.419955 7.50006 0 7.92009 0 8.43754C0 8.95498 0.420033 9.37501 0.937476 9.37501Z" fill="black"/>
+                    <path d="M29.0624 14.0626H0.937476C0.419955 14.0626 0 14.4826 0 15C0 15.5175 0.420033 15.9375 0.937476 15.9375H29.0624C29.58 15.9375 29.9999 15.5175 29.9999 15C29.9999 14.4826 29.58 14.0626 29.0624 14.0626Z" fill="black"/>
+                    <path d="M29.0625 20.625H10.3125C9.79495 20.625 9.375 21.0451 9.375 21.5625C9.375 22.08 9.79503 22.5 10.3125 22.5H29.0625C29.58 22.5 29.9999 22.0799 29.9999 21.5625C30 21.045 29.58 20.625 29.0625 20.625Z" fill="black"/>
+                    </svg>
+                    
+            </button>
         </div>
         <!-- /.navbar -->
         <div class="search-panel">
@@ -67,7 +80,7 @@
         </div>
         <!-- /.search-panel -->
     </header>
-    <div class="page-content container">
+    <div class="page-content page-content-index container">
         <main class="main">
             <h2 class="page-title">Рекомендации для вас</h2>
             <div class="cards">
@@ -252,6 +265,7 @@
         </aside>
     </div>
     <!-- /.page-content -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
